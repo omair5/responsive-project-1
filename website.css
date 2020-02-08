@@ -126,21 +126,89 @@
 .our-advantages-circle{
     height: 100px;
     width: 100px;
-    background-color: rgb(238, 228, 228);
+    background-color: rgb(240, 240, 240);
     padding:20px 0px
 }
                                         /* OUR ADVANTAGES */
 
 
-/* ABOUT US */
+                                        /* ABOUT US */
+.background-about-us{
+    background-image: url(aboutus.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+}
+                                        /* ABOUT US */
 
 
-/* ABOUT US */
+                                        /* OUR SERVICES */
+.our-services-height{
+    height: 500px;
+}
+.myservices{
+    background-color: rgb(240, 240, 240);
+    
+}
+.for-star-icon{
+    background-color: rgb(250, 181, 53);
+    height: 75px;
+    width: 75px;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -30px;
+}
+.star-icon-color{
+    color: red;
+}
+                                        /* OUR SERVICES */
+
+
+                                         /* OUR PORTFOLIO */
+.portfolio-height{
+    height: 500px;
+}
+.my-portfolio img {
+    height: 150px;
+    width: 200px;
+}
+                                        /* OUR PORTFOLIO */
+
+
+                                        /* PEOPLE ABOUT US */
+.review-background{
+    background-color: rgb(226, 224, 224);
+    height: 600px;
+}
+.for-review-circle{
+    background-color: rgb(255, 185, 54);
+    height: 150px;
+    width: 150px;
+}
+.icon-size{
+    font-size: 100px;
+}
+
+
+                                        /* PEOPLE ABOUT US */
+
+
+                                        /* START YOUR NEW PROJECT */
+.projectbg{
+    background-color: rgb(141,199,61) ;
+    height:250px 
+}
+                                        /* START YOUR NEW PROJECT */
+
+
+/* OUR CONTACTS */
 
 
 
-
-
+/* OUR CONTACTS */
 
 
 

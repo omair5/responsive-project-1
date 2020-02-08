@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Practice Website</title>
@@ -14,7 +12,8 @@
     <link href="website.css" type="text/css" rel="stylesheet" />
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- JQUERY PLUGIN FOR PROGRESS BAR -->
+    <link rel="stylesheet" href="Progress-Circle/progresscircle.css">
 </head>
 
 <body>
@@ -69,9 +68,6 @@
                     <a class="nav-link font-weight-bold " href="#">PORTFOLIO</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link font-weight-bold " href="#">PROCESS</a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link font-weight-bold " href="#">REVIEWS</a>
                 </li>
                 <li class="nav-item active">
@@ -90,18 +86,16 @@
     <div class="my-background d-flex align-items-center">
         <div class="container text-center ">
             <h1>WE ARE EXPERTS</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro neque natus odit, ea inventore
-                quas
-                doloribus dignissimos libero vitae at rerum ipsum, perferendis, illum praesentium? Nisi, harum.
-                Autem,
-                ullam ab!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptates necessitatibus nemo totam nihil
+                impedit. Officiis, quae ipsam maiores eius nesciunt, magnam molestias, nulla explicabo dolorum aut sit
+                voluptas ullam.</p>
             <button class="we-are-experts-button">Read More</button>
         </div>
     </div>
     <!-- WE ARE EXPERTS -->
 
     <!-- OUR ADVANTAGES -->
-    <div class="container text-center">
+    <div class="container text-center my-2">
         <h1 class="font-weight-bold">OUR <span class="green-color">ADVANTAGES</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam reiciendis labore, aut dicta enim illo quasi.
             Pariatur, qui temporibus consectetur eligendi autem, quia praesentium, maiores ducimus accusamus perferendis
@@ -149,9 +143,264 @@
     </div>
     <!-- OUR ADVANTAGES -->
 
-    
+    <!-- ABOUT US -->
+    <div class="container">
+        <div class="background-about-us">
+            <h1 class="font-weight-bold text-center mt-5 pt-3">ABOUT <span class="green-color">US</span></h1>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-5">
+                        <p class=text-justify>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius a quam error
+                            maxime qui tempora iste sit nam atque corporis, esse impedit est. Quia necessitatibus iusto,
+                            harum quod rerum expedita!
+                        </p>
+                        <button class="we-are-experts-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT US -->
+
+    <!-- OUR SERVICES -->
+    <div class="our-services-height">
+        <div class="container text-center my-2">
+            <h1 class="font-weight-bold">OUR <span class="green-color">SERVICES</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta provident eligendi perspiciatis minus.
+                Voluptatibus esse corporis voluptates aliquam ad odio delectus fuga laudantium iste officiis, magnam nam
+                quasi consectetur!
+            </p>
+        </div>
+        <div class="container mt-5">
+            <div class="row text-center ">
+
+                <div class="col-md myservices m-2">
+                    <div class="for-star-icon rounded-circle d-flex justify-content-center align-items-center"><i
+                            class="fa fa-star fa-2x star-icon-color"></i></div>
+                    <h6 class="font-weight-bold">WEB DESIGN</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nostrum doloribus consequuntur
+                        quod voluptatum quidem voluptates officia.</p>
+                    <button class="we-are-experts-button mb-2">Read More</button>
+                </div>
+
+                <div class="col-md myservices m-2">
+                    <div class="for-star-icon rounded-circle d-flex justify-content-center align-items-center"><i
+                            class="fa fa-star fa-2x star-icon-color"></i></div>
+                    <h6 class="font-weight-bold">GRAPHIC DESIGNING</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nostrum doloribus consequuntur
+                        quod voluptatum quidem voluptates officia.</p>
+                    <button class="we-are-experts-button">Read More</button>
+                </div>
+
+                <div class="col-md myservices m-2">
+                    <div class="for-star-icon rounded-circle d-flex justify-content-center align-items-center"><i
+                            class="fa fa-star fa-2x star-icon-color"></i></div>
+                    <h6 class="font-weight-bold">BRANDING</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nostrum doloribus consequuntur
+                        quod voluptatum quidem voluptates officia.</p>
+                    <button class="we-are-experts-button">Read More</button>
+                </div>
+
+                <div class="col-md myservices m-2">
+                    <div class="for-star-icon rounded-circle d-flex justify-content-center align-items-center"><i
+                            class="fa fa-star fa-2x star-icon-color"></i></div>
+                    <h6 class="font-weight-bold">MARKETING</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nostrum doloribus consequuntur
+                        quod voluptatum quidem voluptates officia.</p>
+                    <button class="we-are-experts-button">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OUR SERVICES -->
+
+    <!-- OUR PORTFOLIO -->
+    <div class="container-fluid bg-dark portfolio-height">
+        <div class="container text-center pt-3">
+            <h1 class="font-weight-bold"><span class="text-white">OUR</span> <span class="green-color">PORTFOLIO</span>
+            </h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum alias
+                aspernatur suscipit nostrum, ipsa officia sequi ipsam error quos consequuntur, quidem odio nobis
+                voluptas inventore expedita ducimus sunt optio?
+            </p>
+            <div class="row my-portfolio text-white font-weight-bold">
+                <div class="col-md">
+                    <h5>WEB DESIGNING</h5>
+                    <img src="1.png" class="img-fluid pb-2">
+                    <img src="3.png" class="img-fluid pt-2">
+
+                </div>
+                <div class="col-md">
+                    <h5>BRANDING</h5>
+                    <img src="2.png" class="img-fluid pb-2">
+                    <img src="1.png" class="img-fluid pt-2">
+
+                </div>
+                <div class="col-md">
+                    <h5>GRAPHIC DESIGNING</h5>
+                    <img src="3.png" class="img-fluid pb-2">
+                    <img src="2.png" class="img-fluid pt-2">
+
+                </div>
+                <div class="col-md">
+                    <h5>MARKETING</h5>
+                    <img src="1.png" class="img-fluid pb-2">
+                    <img src="3.png" class="img-fluid pt-2">
+
+                </div>
+                <div class="col-md">
+                    <h5>ADVERTISING</h5>
+                    <img src="3.png" class="img-fluid pb-2">
+                    <img src="2.png" class="img-fluid pt-2">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OUR PORTFOLIO -->
+
+    <!-- PEOPLE ABOUT US -->
+    <div class="container-fluid review-background">
+        <div class="container text-center pt-3">
+            <h1 class="font-weight-bold">PEOPLE <span class="green-color">ABOUT US</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolorum a delectus vel ipsa ipsam
+                perferendis aperiam recusandae, fugit rerum tempora magni saepe, ullam dolor aspernatur quo non est
+                impedit.
+            </p>
+            <!-- ROW 1 -->
+            <div class="row  pt-3 mt-3">
+                <div class="col-md-2 border-bottom  border-secondary">
+                    <div class="for-review-circle rounded-circle icon-size"><i class="fa fa-user "></i></div>
+                </div>
+                <div class="col-md-4 text-left border-bottom border-right border-secondary">
+                    <h6 class="text-center font-weight-bold">JONN DOE</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente nulla maiores.
+                        Voluptate itaque tempore culpa quae iure soluta cumque, dolore consequuntur tenetur temporibus
+                        natus esse repellat obcaecati reiciendis voluptatibus.</p>
+                </div>
+
+                <div class="col-md-2 border-bottom border-secondary">
+                    <div class="for-review-circle rounded-circle icon-size"><i class="fa fa-user "></i></div>
+                </div>
+                <div class="col-md-4 text-left border-bottom border-secondary">
+                    <h6 class="text-center font-weight-bold">JONN DOE</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente nulla maiores.
+                        Voluptate itaque tempore culpa quae iure soluta cumque, dolore consequuntur tenetur temporibus
+                        natus esse repellat obcaecati reiciendis voluptatibus.</p>
+                </div>
+            </div>
+            <!-- ROW 2 -->
+            <div class="row ">
+                <div class="col-md-2 pt-5 ">
+                    <div class="for-review-circle rounded-circle icon-size"><i class="fa fa-user "></i></div>
+                </div>
+                <div class="col-md-4 text-left  border-right border-secondary pt-5">
+                    <h6 class="text-center font-weight-bold">JONN DOE</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente nulla maiores.
+                        Voluptate itaque tempore culpa quae iure soluta cumque, dolore consequuntur tenetur temporibus
+                        natus esse repellat obcaecati reiciendis voluptatibus.</p>
+                </div>
+
+                <div class="col-md-2 pt-5">
+                    <div class="for-review-circle rounded-circle icon-size"><i class="fa fa-user "></i></div>
+                </div>
+                <div class="col-md-4 text-left pt-5">
+                    <h6 class="text-center font-weight-bold">JONN DOE</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente nulla maiores.
+                        Voluptate itaque tempore culpa quae iure soluta cumque, dolore consequuntur tenetur temporibus
+                        natus esse repellat obcaecati reiciendis voluptatibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PEOPLE ABOUT US -->
+
+    <!-- OUR SKILLS -->
+    <div class="container mt-3">
+        <div class="text-center">
+            <h1 class="font-weight-bold">OUR <span class="green-color">SKILLS</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quibusdam laboriosam suscipit iure autem,
+                aliquam eum molestias excepturi voluptatibus illo labore amet dolores dicta ratione libero facilis omnis
+                perferendis commodi.</p>
+        </div>
+        <div class="row text-center pt-5">
+            <div class="col-lg-3 col-md-6">
+                <div class="circlechart" data-percentage="45"></div>
+                <h6 class="font-weight-bold">SEO</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="circlechart" data-percentage="60"></div>
+                <h6 class="font-weight-bold">ADVERTISEMENT</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="circlechart" data-percentage="75"></div>
+                <h6 class="font-weight-bold">BRANDING</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="circlechart" data-percentage="80"></div>
+                <h6 class="font-weight-bold">DESIGNING</h6>
+            </div>
+        </div>
+    </div>
+    <!-- OUR SKILLS -->
+
+    <!-- START YOUR NEW PROJECT -->
+    <div class="container-fluid projectbg">
+        <div class="container">
+            <h2 class="font-weight-bold text-white text-center pt-5">START YOUR NEW PROJECT</h2>
+            <form>
+                <div class="form-row align-items-center justify-content-center pt-2">
+                    <div class="col-auto">
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="ENTER YOUR NAME">
+                    </div>
+                    <div class="col-auto">
+                        <input type="email" class="form-control mb-2" id="inlineFormInput"
+                            placeholder="ENTER YOUR EMAIL">
+                    </div>
+                    <div class="col-auto">
+                        <input type="tel" class="form-control mb-2" id="inlineFormInput"
+                            placeholder="ENTER YOUR NUMBER">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="we-are-experts-button mb-2">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sunt. Fuga
+                distinctio aliquid nesciunt
+                consequatur nisi ut ipsum. Quos, modi id? Maiores, voluptatem rerum architecto perspiciatis unde
+                aspernatur maxime laudantium.</p>
+        </div>
+    </div>
+    <!-- START YOUR NEW PROJECT -->
+
+    <!-- OUR CONTACTS -->
+    <div class="container mt-3">
+        <div class="text-center">
+            <h1 class="font-weight-bold">OUR <span class="green-color">CONTACTS</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quibusdam laboriosam suscipit iure autem,
+                aliquam eum molestias excepturi voluptatibus illo labore amet dolores dicta ratione libero facilis omnis
+                perferendis commodi.</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <i class="fa fa-map-marker pr-2 pt-1 green-color"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-auto"><i class="fa fa-phone pr-2 green-color"></i>+92(037)654-876</div>
+            <div class="col-sm-auto"><i class="fa fa-phone pr-2 green-color"></i>+92(097)634-776</div>
+            <div class="col-sm-auto"><i class="fa fa-envelope pr-2 green-color"></i>info@website.com</div>
+        </div>
+    </div>
+    <div class="embed-responsive embed-responsive-21by9" style="height: 200px">
+        <iframe class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14485.890097298487!2d67.0483187!3d24.8135093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2401821560d53462!2sPanacloud%20Pvt.%20Ltd.%20Pakistan!5e0!3m2!1sen!2s!4v1581122893636!5m2!1sen!2s"
+            width="100%" height="200" style="border:0;" allowfullscreen=""></iframe>
+    </div>
 
 
+    <!-- OUR CONTACTS -->
 
 
 
@@ -167,7 +416,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <!-- JQUERY PLUGIN FOR PROGRESS BAR -->
+    <script src="Progress-Circle/progresscircle.js"></script>
+    <script>
+        $(function () {
 
+            $('.circlechart').circlechart();
+
+        });
+    </script>
 
 
 </body>
